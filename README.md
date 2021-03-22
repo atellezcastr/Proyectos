@@ -1,5 +1,5 @@
 # Proyectos
-    This are project I have decided to work along my degree, some of them are polished, some of them are not. 
+    These are project I have decided to work along my degree, some of them are polished, some of them are not. 
     A brief explanation of the python projects:
         -   bitcoinPredictor: This project means to scrape a website for all the bitcoin values given through specific years,
         and then make a prediction for the next period chosen by the user
