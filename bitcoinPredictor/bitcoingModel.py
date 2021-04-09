@@ -35,7 +35,7 @@ def train(model, loss_fun, optimizer, trainLoader, n_epochs=3):
 
 def main():
     #Loading the data
-    data = pd.read_csv('//./bitstampUSD_1-min_data_2012-01-01_to_2020-12-31.csv')
+    data = pd.read_csv('././Proyectos/bitstampUSD_1-min_data_2012-01-01_to_2020-12-31.csv')
 
     data['price'] = (data['High'] + data["Low"])/2
     data.drop(['Open','Close','Volume_(BTC)', 'Volume_(Currency)','Weighted_Price','High','Low'], axis=1, inplace=True)
